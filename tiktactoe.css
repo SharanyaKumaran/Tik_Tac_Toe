@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/neon-grid-background_.avif);
+    background-size: cover;
+    
+}
+
+.heading {
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vmin;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 15vmin;
+    border: none;
+    border-radius: 1rem;
+    color: #f19ed2;
+    background-color: #91ddcf;
+    font-size: 5rem;
+    cursor: pointer;
+    box-shadow: 10px 10px lightblue;
+}
+
+.reset {
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
